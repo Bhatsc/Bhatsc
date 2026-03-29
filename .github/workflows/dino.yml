@@ -11,55 +11,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch contribution data and generate SVG
+      - name: Generate Dino SVG
         run: |
           mkdir -p dist
-          curl -s "https://github-contributions-api.jogruber.de/v4/Bhatsc?y=last" -o contrib.json
-          python3 << 'PYEOF'
-          import json, math
-
-          with open('contrib.json') as f:
-              data = json.load(f)
-
-          weeks = data.get('contributions', [])
-          cols = len(weeks)
-          W, H = cols * 14 + 40, 140
-          COLORS = ['#161b22','#0e4429','#006d32','#26a641','#39d353']
-
-          cells = []
-          for wi, week in enumerate(weeks):
-              for di, day in enumerate(week):
-                  lvl = min(day.get('level', 0), 4)
-                  x = wi * 14 + 20
-                  y = di * 14 + 20
-                  cells.append(f'<rect x="{x}" y="{y}" width="11" height="11" rx="2" fill="{COLORS[lvl]}"/>')
-
-          # Dino SVG (simple pixel dino)
-          dino = '''<g id="dino">
-            <rect x="0" y="0" width="10" height="6" fill="#39d353"/>
-            <rect x="2" y="-4" width="6" height="4" fill="#39d353"/>
-            <rect x="6" y="-6" width="4" height="3" fill="#39d353"/>
-            <rect x="8" y="-5" width="2" height="1" fill="#161b22"/>
-            <rect x="-2" y="4" width="3" height="4" fill="#39d353"/>
-            <rect x="3" y="4" width="3" height="4" fill="#39d353"/>
-          </g>'''
-
-          anim_x = W - 40
-          svg = f'''<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">
-          <rect width="{W}" height="{H}" fill="#0d1117"/>
-          {''.join(cells)}
-          <g transform="translate(20,10)">
-            {dino}
-            <animateTransform attributeName="transform" type="translate"
-              from="20,10" to="-20,10"
-              dur="6s" repeatCount="indefinite"/>
-          </g>
-          </svg>'''
-
-          with open('dist/dino.svg', 'w') as f:
-              f.write(svg)
-          print("SVG generated!")
-          PYEOF
+          cat > dist/dino.svg << 'SVGEOF'
+          <svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="800" height="120" fill="#0d1117"/>
+            <text x="400" y="65" text-anchor="middle" fill="#39d353" font-family="monospace" font-size="14">
+              🦕 Bhatsc is coding...
+            </text>
+            <rect x="0" y="80" width="800" height="2" fill="#21262d"/>
+            <g id="dino" fill="#39d353">
+              <rect x="10" y="60" width="20" height="18" rx="3"/>
+              <rect x="20" y="44" width="14" height="18" rx="2"/>
+              <rect x="28" y="38" width="10" height="10" rx="2"/>
+              <rect x="34" y="40" width="4" height="2" fill="#0d1117"/>
+              <rect x="6" y="74" width="7" height="10" rx="2"/>
+              <rect x="16" y="74" width="7" height="10" rx="2"/>
+              <animateTransform attributeName="transform" type="translate"
+                values="0,0;780,0;0,0" dur="8s" repeatCount="indefinite"/>
+            </g>
+          </svg>
+          SVGEOF
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
