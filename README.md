@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi, I'm bhatsc  <br>I'm a student who enjoys building projects and exploring technology  <br><br>This GitHub is my space to share my work and learning journey  <br>I'm currently learning and experimenting with different areas in tech
+Hi, I'm bhatsc  <br>I'm a student who enjoys building projects and exploring technology  <br><br>This is my Github portfolio and learning journey  <br>I'm currently learning and experimenting with different areas in tech
 
 
 ## 🌐 Socials:
