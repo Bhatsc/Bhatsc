@@ -6,11 +6,11 @@
 <!-- HEADER BANNER -->
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d0015,30:1a0533,60:2d1b69,100:4fc3f7&height=250&section=header&text=Bhatsc&fontSize=90&fontColor=e0c3fc&animation=fadeIn&fontAlignY=50&desc=student%20·%20builder%20·%20explorer&descAlignY=68&descSize=16&descColor=90caf9&stroke=7c3aed&strokeWidth=2)
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:004d00&height=280&section=header&text=%3E%20Bhatsc_&fontSize=78&fontColor=00ff41&animation=fadeIn&fontAlignY=48&desc=%E2%80%A2%20STUDENT%20%E2%80%A2%20BUILDER%20%E2%80%A2%20EXPLORER%20%E2%80%A2&descAlignY=67&descSize=15&descColor=39ff14&stroke=00ff41&strokeWidth=2)
 
-### `~/bhatsc` — student · builder · explorer
+### `~/Bhatsc` — student · builder · explorer
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3500&pause=1200&color=A78BFA&center=true&vCenter=true&multiline=false&width=650&lines=I'm+a+student+who+enjoys+building+projects+and+exploring+technology;This+is+my+Github+portfolio+and+learning+journey;I'm+currently+learning+and+experimenting+with+different+areas+in+tech)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3500&pause=1200&color=00FF41&center=true&vCenter=true&multiline=false&width=650&lines=I'm+a+student+who+enjoys+building+projects+and+exploring+technology;This+is+my+Github+portfolio+and+learning+journey;I'm+currently+learning+and+experimenting+with+different+areas+in+tech)](https://git.io/typing-svg)
 
 </div>
 
@@ -47,13 +47,10 @@ $ cat about.txt
 <!-- GITHUB TROPHIES -->
 ## 🏆 GitHub Trophies
 
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Bhatsc&theme=dracula&column=4&margin-w=10&margin-h=10)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
+![](https://github-profile-trophy.vercel.app/?username=Bhatsc&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
 ---
+
 
 <!-- TECH STACK -->
 ## 🛠 Tech Stack
@@ -99,8 +96,8 @@ $ cat about.txt
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Bhatsc&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bhatsc&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+![](https://github-readme-stats.vercel.app/api?username=Bhatsc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&card_width=480)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Bhatsc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=8)
 
 </div>
 
@@ -108,7 +105,7 @@ $ cat about.txt
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Bhatsc&theme=tokyonight-duo&hide_border=true)](https://git.io/streak-stats)
+![](https://nirzak-streak-stats.vercel.app/?user=Bhatsc&theme=dark&hide_border=false&card_width=700)
 
 </div>
 
@@ -152,6 +149,6 @@ $ cat about.txt
 
 *"First, solve the problem. Then, write the code."*
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d0015,30:1a0533,60:2d1b69,100:4fc3f7&height=120&section=footer&stroke=7c3aed&strokeWidth=1)
+![footer](https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:001a00,60:003300,100:004d00&height=120&section=footer&stroke=00ff41&strokeWidth=1)
 
 </div>
