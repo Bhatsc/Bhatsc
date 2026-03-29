@@ -47,10 +47,13 @@ $ cat about.txt
 <!-- GITHUB TROPHIES -->
 ## 🏆 GitHub Trophies
 
-![](https://github-profile-trophy.vercel.app/?username=Bhatsc&theme=dark&no-frame=false&no-bg=true&margin-w=4)
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Bhatsc&theme=dark&no-frame=false&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
 
 ---
-
 
 <!-- TECH STACK -->
 ## 🛠 Tech Stack
@@ -125,15 +128,12 @@ $ cat about.txt
 <!-- SNAKE ANIMATION -->
 ## 🐍 Contribution Snake
 
-> ⚠️ Jalankan GitHub Action **Generate Snake** terlebih dahulu agar animasi ini muncul.
-> Lihat instruksi di bawah README ini.
-
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
