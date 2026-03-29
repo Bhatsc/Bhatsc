@@ -1,5 +1,4 @@
-# README.md untuk GitHub Profile bhatsc
-# Copy semua konten di bawah ini ke file README.md kamu
+
 
 ---
 
@@ -47,11 +46,7 @@ $ cat about.txt
 <!-- GITHUB TROPHIES -->
 ## 🏆 GitHub Trophies
 
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Bhatsc&theme=dark&no-frame=false&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
+![](https://github-profile-trophy.vercel.app/?username=Bhatsc&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
 ---
 
@@ -135,6 +130,17 @@ $ cat about.txt
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/github-contribution-grid-snake-dark.svg" />
 </picture>
+
+</div>
+
+---
+
+<!-- DINO ANIMATION -->
+## 🦕 Running Dino
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/dino.svg" alt="dino animation" width="100%"/>
 
 </div>
 
