@@ -9,12 +9,14 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: Tridentu/phosphor-dino-action@v1.2
+      - uses: actions/checkout@v4
+      - uses: devxb/gitanimals@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          github_user_name: Bhatsc
-          commit_message: "Generate dino animation"
-          output_path: dist/dino.svg
+          username: Bhatsc
+          scene: "CONTRIBUTION_LINE"
+          output: dist/dino.svg
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
