@@ -135,16 +135,7 @@ $ cat about.txt
 
 ---
 
-<!-- DINO ANIMATION -->
-## 🦕 Running Dino
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Bhatsc/Bhatsc/output/dino.svg" alt="dino animation" width="100%"/>
-
-</div>
-
----
 
 <!-- PROFILE VIEWS & FOOTER -->
 <div align="center">
