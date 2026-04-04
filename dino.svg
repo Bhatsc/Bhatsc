@@ -1,0 +1,17 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="120" fill="#0d1117"/>
+  <text x="400" y="65" text-anchor="middle" fill="#39d353" font-family="monospace" font-size="14">
+    🦕 Bhatsc is coding...
+  </text>
+  <rect x="0" y="80" width="800" height="2" fill="#21262d"/>
+  <g id="dino" fill="#39d353">
+    <rect x="10" y="60" width="20" height="18" rx="3"/>
+    <rect x="20" y="44" width="14" height="18" rx="2"/>
+    <rect x="28" y="38" width="10" height="10" rx="2"/>
+    <rect x="34" y="40" width="4" height="2" fill="#0d1117"/>
+    <rect x="6" y="74" width="7" height="10" rx="2"/>
+    <rect x="16" y="74" width="7" height="10" rx="2"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0;780,0;0,0" dur="8s" repeatCount="indefinite"/>
+  </g>
+</svg>
