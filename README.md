@@ -92,20 +92,19 @@ $ cat about.txt
 <!-- GITHUB STATS -->
 ## 📊 GitHub Stats
 
-<div align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api
+  ?username=Bhatsc
+  &show_icons=true
+  &theme=tokyonight)
 
-![](https://github-readme-stats.vercel.app/api?username=Bhatsc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&card_width=480)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Bhatsc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=8)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/
+  ?username=Bhatsc
+  &layout=compact
+  &theme=tokyonight)
 
-</div>
-
-<br/>
-
-<div align="center">
-
-![](https://nirzak-streak-stats.vercel.app/?user=Bhatsc&theme=dark&hide_border=false&card_width=700)
-
-</div>
+[![GitHub Streak](https://streak-stats.demolab.com
+  ?user=Bhatsc
+  &theme=tokyonight)](https://git.io/streak-stats)
 
 ---
 
