@@ -92,23 +92,30 @@ $ cat about.txt
 <!-- GITHUB STATS -->
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Bhatsc&show_icons=true&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff41,004d15&height=100&section=header&text=GitHub%20Stats&fontColor=00ff41&fontSize=40&animation=fadeIn" />
+</p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bhatsc&layout=compact&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Bhatsc&theme=github_dark" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Bhatsc&theme=github_dark" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Bhatsc&theme=github_dark&utcOffset=7" width="32%" />
+</p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Bhatsc&theme=tokyonight)](https://git.io/streak-stats)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Bhatsc&hide_border=false&border=00ff41&background=0d1117&ring=00ff41&fire=ffffff&currStreakNum=ffffff&currStreakLabel=00ff41&sideNums=ffffff&sideLabels=00ff41&dates=888888&border_radius=10&mode=weekly" width="70%" />
+</p>
+
+
 
 ---
 
 <!-- ACTIVITY GRAPH -->
 ## 📈 Contribution Graph
 
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Bhatsc&bg_color=0d1117&color=00f5c4&line=7b5cfa&point=ff6b6b&area=true&area_color=7b5cfa&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Bhatsc&theme=github-compact&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&hide_border=false&border_color=00ff41" width="98%" />
+</p>
 ---
 
 <!-- SNAKE ANIMATION -->
@@ -128,12 +135,9 @@ $ cat about.txt
 
 
 
-<!-- PROFILE VIEWS & FOOTER -->
+<!-- FOOTER -->
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=Bhatsc&color=00f5c4&style=flat-square&label=Profile+Views)
-
----
 
 *"First, solve the problem. Then, write the code."*
 
